@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          Tweaked dist.ini because I made it wrong -_-.
+
+0.02004312 2009-09-13 12:20:41 UTC
           Moved last_id to last_index ( was a bad name anyway )
           Added ->indices to the KeyCount plug. 
           Added KeyPlug tests.
