@@ -1,6 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          Moved to Moose 0.90
+          Dropped need for MXHS.
+          Added (private) accessors for everything moose can do on the ::Private core.
+            This is soley to discourage consumers from accesing the hash internals directly
+            to provide better encapsulation. Maybe one day ::Private will be entirely replaced with 
+            XS and you want it to remain working.
           Tweaked dist.ini because I made it wrong -_-.
 
 0.02004312 2009-09-13 12:20:41 UTC
